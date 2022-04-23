@@ -1,5 +1,4 @@
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
-
 import 'zone.js/testing';
 import { getTestBed } from '@angular/core/testing';
 import {
@@ -8,8 +7,8 @@ import {
 } from '@angular/platform-browser-dynamic/testing';
 
 declare const require: {
-  context(path: string, deep?: boolean, filter?: RegExp): {
-    <T>(id: string): T;
+  context(path: string, deep?: boolean, filter?: RegExp): { // eslint-disable-line no-unused-vars
+    <T>(id: string): T; // eslint-disable-line no-unused-vars
     keys(): string[];
   };
 };
