@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="es-419">
+  <file id="ngi18n" original="ng.template">
+    <unit id="nameDev">
+      <notes>
+        <note category="location">src/app/modules/home/components/side-menu/side-menu.component.html:4</note>
+        <note category="description"> name of developer</note>
+        <note category="meaning">User name </note>
+      </notes>
+      <segment>
+        <source>Nicolás Ríos</source>
+      </segment>
+    </unit>
+    <unit id="introductionHeader">
+      <notes>
+        <note category="location">src/app/modules/home/components/side-menu/side-menu.component.html:5,6</note>
+        <note category="description">An introduction header for this sample</note>
+        <note category="meaning">User welcome</note>
+      </notes>
+      <segment>
+        <source> Desarrollador Web</source>
+        <target> Web Developer</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

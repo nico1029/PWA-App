@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es-419" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="nameDev" datatype="html">
+        <source>Nicolás Ríos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description"> name of developer</note>
+        <note priority="1" from="meaning">User name </note>
+      </trans-unit>
+      <trans-unit id="introductionHeader" datatype="html">
+        <source> Desarrollador Web</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+        <note priority="1" from="description">An introduction header for this sample</note>
+        <note priority="1" from="meaning">User welcome</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
