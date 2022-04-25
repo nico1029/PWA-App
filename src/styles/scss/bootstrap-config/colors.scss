@@ -1,0 +1,9 @@
+/* Set up custome colors configuration */
+
+// scss-docs-start theme-color-variables
+$blue-dark: #092a4e !default;
+// scss-docs-end theme-color-variables
+
+$theme-colors: (
+    "blue-dark": $blue-dark,
+) !default;
