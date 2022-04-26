@@ -1,14 +1,28 @@
 <div class="container-fluid px-0">
     <div class="row m-0">
-        <div class="col-9 p-5">
+        <div class="d-flex flex-row pt-4 d-md-none">
+            <button class="btn btn-primary ms-auto" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
+                i18n="Home Component | offcanvas button@@moreInformation">Más información</button>
+            <div class="offcanvas offcanvas-end bg-blue-dark" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header bg-blue-dark">
+                    <i class="fa-solid fa-xmark fa-2x text-white" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+                </div>
+                <div class="offcanvas-body p-0">
+                    <app-side-menu></app-side-menu>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-9 p-4 p-md-5">
             <div class="d-flex flex-column px-4">
                 <div class="py-4">
                     <h1 class="fw-bold">Nicolás Ríos</h1>
-                    <p class="m-0 p-0 fs-4">Desarrollador Web</p>
+                    <p class="m-0 p-0 fs-4" i18n="Home Component | header @@webDeveloper">Desarrollador Web</p>
                 </div>
                 <div class="pt-4">
-                    <p class="m-0 fs-3 fw-bold">Perfil</p>
-                    <p class="m-0">
+                    <p class="m-0 fs-3 fw-bold" i18n="Home Component @@profile">Perfil</p>
+                    <p class="m-0 pt-2" i18n="Home Component | Web developers with great talent @@perfilDescription">
                         Desarrollador web con gran talento y pasión por la tecnología, con conocimientos y habilidades
                         que son trazables en diferentes áreas de las empresas, con capacidad de aptación y aprendizaje
                         notable y motivación y disposición para la gestión de proyectos que impulsen tecnológicamente
@@ -19,16 +33,22 @@
                     </p>
                 </div>
                 <div class="pt-4">
-                    <p class="m-0 fs-3 fw-bold">Educación</p>
-                    <div class="row m-0">
+                    <p class="m-0 fs-3 fw-bold" i18n="Home Component @@education">Educación</p>
+                    <div class="row m-0 pt-2">
                         <p class="m-0 p-0 fw-bold">Universidad de los Andes (ABET Accreditation) – Bogotá D.C, Colombia
                         </p>
                         <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0 fw-bold fst-italic">Ingeniero Mecánico </p>
+                            <p class="m-0 p-0 fw-bold fst-italic"
+                                i18n="Home Component | first major @@mechanicalEngineering">Ingeniero Mecánico </p>
                             <p class="ms-auto p-0 fw-bold fst-italic">2020 </p>
                         </div>
-                        <ul class="ms-4">
-                            <li class="ps-3">Cursos relevantes: Constrol de Movimiento – Curso de Maestría (MATLAB),
+                        <ul class="ms-2 ms-md-4">
+                            <li class="ps-2 ps-md-3"
+                                i18n="Home Component | relevant courses from first career@@relevantCoursesMechanicalEngineering">
+                                Cursos
+                                relevantes: Control de Movimiento –
+                                Curso de Maestría
+                                (MATLAB),
                                 Diseño de Mecanismo por Computador – Curso de Maestría (MATLAB), Conversión de Energía
                                 (Orientado a Energías Renovables),
                                 Diseño de Sistemas Mecánicos, Sistemas de Manufactura, Transferencia de Calor, Diseño de
@@ -41,12 +61,19 @@
                     <div class="row m-0">
                         <p class="m-0 p-0 fw-bold">Universidad de los Andes (ABET Accreditation) – Bogotá D.C, Colombia
                         </p>
-                        <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0 fw-bold fst-italic">Ingeniero Electrónico </p>
-                            <p class="ms-auto p-0 fw-bold fst-italic">2023 (esperado) </p>
+                        <div class="d-flex flex-column flex-sm-row px-0">
+                            <p class="m-0 p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | second major @@electronicEngineering">Ingeniero Electrónico</p>
+                            <p class="ms-sm-auto p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | date to graduate @@dateToGraduateElectronicEngineering">2023
+                                (esperado)</p>
                         </div>
-                        <ul class="ms-4">
-                            <li class="ps-3">Cursos relevantes: Sistemas Dinámicos, Fundamentos de Electrónica,
+                        <ul class="ms-2 ms-md-4">
+                            <li class="ps-2 ps-md-3"
+                                i18n="HomeComponent | relevant courses from second career@@relevantCoursesElectronicEngineering">
+                                Cursos
+                                relevantes: Sistemas Dinámicos,
+                                Fundamentos de Electrónica,
                                 Teoría Electromagnética, Sistemas Electrónicos Digitales, Ingeniería de Materiales para
                                 Electrónica, Automatización, Computació Científica,
                                 Robótica,
@@ -57,12 +84,19 @@
                     <div class="row m-0">
                         <p class="m-0 p-0 fw-bold">Universidad de los Andes (ABET Accreditation) – Bogotá D.C, Colombia
                         </p>
-                        <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0 fw-bold fst-italic">Opción en Administración </p>
-                            <p class="ms-auto p-0 fw-bold fst-italic">2023 (esperado) </p>
+                        <div class="d-flex flex-column flex-sm-row px-0">
+                            <p class="m-0 p-0 fw-bold fst-italic" i18n="HomeComponent | third major @@managmentOption">
+                                Opción en Administración
+                            </p>
+                            <p class="ms-sm-auto p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | date to graduate @@dateToGraduateManagmentOption">2023
+                                (esperado)</p>
                         </div>
-                        <ul class="ms-4 mb-0">
-                            <li class="ps-3 mb-0">Cursos relevantes: Administración Cultural, Organizaciones,
+                        <ul class="ms-2 ms-md-4 mb-0">
+                            <li class="ps-2 ps-md-3 mb-0"
+                                i18n="HomeComponent | relevant courses from third career@@relevantCoursesManagmentOption">
+                                Cursos
+                                relevantes: Administración Cultural, Organizaciones,
                                 Contabilidad,
                                 Fundamentos de Mercadeo,
                                 Fundamentos de Administración.
@@ -71,48 +105,71 @@
                     </div>
                 </div>
                 <div class="pt-4">
-                    <p class="m-0 fs-3 fw-bold">Experiencia</p>
-                    <div class="row m-0">
+                    <p class="m-0 fs-3 fw-bold" i18n="HomeComponent @@experience">Experiencia</p>
+                    <div class="row m-0 pt-2">
                         <p class="m-0 p-0 fw-bold">Varisur S.A.S – Neiva, Huila
                         </p>
-                        <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0 fw-bold fst-italic">Asistente del Jefe de Mantenimiento </p>
-                            <p class="ms-auto p-0 fw-bold fst-italic">December 2017, 2018
-                            </p>
+                        <div class="d-flex flex-column flex-sm-row px-0">
+                            <p class="m-0 p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | first job @@assistantHeadOfMaintenance">
+                                Asistente del Jefe
+                                de
+                                Mantenimiento </p>
+                            <p class="ms-sm-auto p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | date of first job @@dateIncomeFirstJob">
+                                Diciembre
+                                2017, 2018</p>
                         </div>
-                        <ul class="ms-4">
-                            <li class="ps-3">Diseño de una estructura para el levantamiento de una plataforma de
+                        <ul class="ms-2 ms-md-4">
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | first job @@firstTaskFirstJob">
+                                Diseño de
+                                una estructura para el
+                                levantamiento de una plataforma de
                                 transporte de tuberías mediante un sistema de bombeo básico. Simulación en ANSYS para
                                 evaluación de cargas soportadas. Reportes de
                                 informes obtenidos y planes de trabajo.
                             </li>
-                            <li class="ps-3">Configuración de una
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | first job @@secondTaskFirstJob">
+                                Configuración de una
                                 planta de potencia para el suministro de energía en operaciones y trabajo en campo.
                             </li>
-                            <li class="ps-3">Toma de mediciones de la resistencia en tierra para la
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | first job @@ThirdTaskFirstJob">Toma de
+                                mediciones de la resistencia en tierra para la
                                 puesta de equipos de mantenimiento durante operaciones en campo.
                             </li>
-                            <li class="ps-3">Adaptación de una unidad hidráulica para la activación de preventores y
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | first job @@FourthTaskFirstJob">
+                                Adaptación de una unidad hidráulica para la activación de
+                                preventores y
                                 válvulas hidráulicas en actividades de mantenimiento.
                             </li>
                         </ul>
                     </div>
                     <div class="row m-0">
-                        <p class="m-0 p-0 fw-bold">Cenit Transporte y Logística de Hidrocarburos SAS
+                        <p class="m-0 p-0 fw-bold"
+                            i18n="HomeComponent @@cenitTransportationAndLogisticsOfHydrocarbons ">
+                            Cenit Transporte y Logística de Hidrocarburos SAS
                         </p>
-                        <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0 fw-bold fst-italic">Prácticante del Área de Ingeniería </p>
-                            <p class="ms-auto p-0 fw-bold fst-italic">Julio 2019, Enero 2020
+                        <div class="d-flex flex-column flex-sm-row px-0">
+                            <p class="m-0 p-0 fw-bold fst-italic" i18n="HomeComponent | second job @@engineeringIntern">
+                                Prácticante de Ingeniería</p>
+                            <p class="ms-sm-auto p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | date of second job @@dateIncomeSecondJob">Julio 2019, Enero 2020
                             </p>
                         </div>
-                        <ul class="ms-4">
-                            <li class="ps-3">Desarrollo de plantilla en Power BI para automatización en la captación de
+                        <ul class="ms-2 ms-md-4">
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | second job @@firstTaskSecondJob">
+                                Desarrollo de plantilla en Power BI para automatización en la
+                                captación de
                                 resultados de los flujos de trabajo.
                             </li>
-                            <li class="ps-3">Gestión y acompañamiento en la construcción de estructura de recogimiento
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | second job @@secondTaskSecondJob">Gestión
+                                y acompañamiento en la construcción de estructura de
+                                recogimiento
                                 de aguas lluvias en zonas de descarga.
                             </li>
-                            <li class="ps-3">Desarrollo de prueba piloto para la integración de una arquitectura IoT en
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | second job @@thirdTaskSecondJob">
+                                Desarrollo de prueba piloto para la integración de una arquitectura
+                                IoT en
                                 la recolección de datos de la operación de oleoductos.
                             </li>
                         </ul>
@@ -120,14 +177,18 @@
                     <div class="row m-0">
                         <p class="m-0 p-0 fw-bold">Universidad de los Andes – Bogotá D.C, Colombia
                         </p>
-                        <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0 fw-bold fst-italic">Monitor de Proyecto de Grado de Ingeniería Mecánica
+                        <div class="d-flex flex-column flex-sm-row px-0">
+                            <p class="m-0 p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | third job @@MonitorOfMechanicalEngineeringDegreeProject ">
+                                Monitor de
+                                Proyecto de Grado de Ingeniería Mecánica
                             </p>
-                            <p class="ms-auto p-0 fw-bold fst-italic">Enero, Junio 2020
-                            </p>
+                            <p class="ms-sm-auto p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | date of third job @@dateIncomeThirdJob">Enero, Junio 2020</p>
                         </div>
-                        <ul class="ms-4">
-                            <li class="ps-3">Apoyo, asesoramiento y gestión del proyecto de mitad de carrera de
+                        <ul class="ms-2 ms-md-4">
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | third job @@firstTaskThirdJob">Apoyo,
+                                asesoramiento y gestión del proyecto de mitad de carrera de
                                 ingeniería mecánica donde estudiantes adecuaron un dron para llevar una carga de un
                                 punto a otro a través de una pista de obstáculos.
                             </li>
@@ -136,13 +197,17 @@
                     <div class="row m-0">
                         <p class="m-0 p-0 fw-bold">Universidad de los Andes – Bogotá D.C, Colombia
                         </p>
-                        <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0 fw-bold fst-italic">Monitor de Taller de Control </p>
-                            <p class="ms-auto p-0 fw-bold fst-italic">Enero, Junio 2021
+                        <div class="d-flex flex-column flex-sm-row px-0">
+                            <p class="m-0 p-0 fw-bold fst-italic" i18n="HomeComponent @@MonitorOfControlWorkshop">
+                                Monitor de
+                                Taller de Control
                             </p>
+                            <p class="ms-sm-auto p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | date of fourth job @@dateIncomeFourthJob">Enero, Junio 2021</p>
                         </div>
-                        <ul class="ms-4">
-                            <li class="ps-3">Apoyo, asesoramiento y gestión del taller de control de
+                        <ul class="ms-2 ms-md-4">
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | fourth job @@firstTaskFourthJob">Apoyo,
+                                asesoramiento y gestión del taller de control de
                                 ingeniería electrónica donde estudiantes realizaron laboratorios de automatización en
                                 CloudLabs, talleres de programación en TIA portal con lenguaje Grafcet y Ladder y
                                 proyecto final que consistió en la manufactura y control de un sistema balancín-bola en
@@ -153,58 +218,81 @@
                     <div class="row m-0">
                         <p class="m-0 p-0 fw-bold">Double V Partners
                         </p>
-                        <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0 fw-bold fst-italic">Desarrollador Web </p>
-                            <p class="ms-auto p-0 fw-bold fst-italic">Julio 2021, Diciembre 2021
+                        <div class="d-flex flex-column flex-sm-row px-0">
+                            <p class="m-0 p-0 fw-bold fst-italic" i18n="HomeComponent | fifth job @@webDeveloperJob">
+                                Desarrollador Web
+                            </p>
+                            <p class="ms-sm-auto p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | date of fifth job @@dateIncomeFifthJob">Julio 2021, Diciembre
+                                2021
                             </p>
                         </div>
-                        <ul class="ms-4">
-                            <li class="ps-3">Desarrollo de herramienta de apoyo que
+                        <ul class="ms-2 ms-md-4">
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | fifth job @@firstTaskFifthJob">
+                                Desarrollo de herramienta de apoyo que
                                 promueve el crecimiento tecnólogico de Mipymes, mediante planes de gestión adecuados a
                                 su
                                 mercado.
                             </li>
-                            <li class="ps-3">Desarrollo de marketplaces para inmobiliarias en Colombia y España.
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | fifth job @@secondTaskFifthJob">
+                                Desarrollo de marketplaces para inmobiliarias en Colombia y España.
                             </li>
                         </ul>
                     </div>
                     <div class="row m-0">
                         <p class="m-0 p-0 fw-bold">Double V Partners
                         </p>
-                        <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0 fw-bold fst-italic">Líder Desarrollador </p>
-                            <p class="ms-auto p-0 fw-bold fst-italic">Enero 2022
+                        <div class="d-flex flex-column flex-sm-row px-0">
+                            <p class="m-0 p-0 fw-bold fst-italic" i18n="HomeComponent | sixth job @@leadingDevelopr">
+                                Líder
+                                Desarrollador
                             </p>
+                            <p class="ms-sm-auto p-0 fw-bold fst-italic"
+                                i18n="HomeComponent | date of sixth job @@dateIncomeSixthJob">Enero 2022</p>
                         </div>
-                        <ul class="ms-4 mb-0">
-                            <li class="ps-3">Dirección y desarrollo de tres proyectos web como marketplaces que
+                        <ul class="ms-2 ms-md-4 mb-0">
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | sixth job @@firstTaskSixthJob">
+                                Dirección y desarrollo de tres proyectos web como marketplaces que
                                 brindaron crecimiento tecnológico a inmobiliarias en Colombia y España.
                             </li>
-                            <li class="ps-3">Apoyo en diseño y salida a producción de los marketplaces de las
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | sixth job @@secondTaskSixthJob">Apoyo en
+                                diseño y salida a producción de los marketplaces de las
                                 inmobiliarias en Colombia y España.
                             </li>
-                            <li class="ps-3">Líder de implementación en nuevas tecnologías front, arquitecturas y
+                            <li class="ps-2 ps-md-3" i18n="HomeComponent | sixth job @@thirdTaskSixthJob">Líder de
+                                implementación en nuevas tecnologías front, arquitecturas
+                                y
                                 desarrollos mobile.
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="pt-4">
-                    <p class="m-0 fs-3 fw-bold">Reconocimientos</p>
-                    <div class="row m-0">
-                        <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0">Distinción - European Rover Challenge </p>
-                            <p class="ms-auto mb-0 p-0 fw-bold">Septiembre 14, 2018 </p>
+                    <p class="m-0 fs-3 fw-bold" i18n="HomeComponent @@Awards">Reconocimientos</p>
+                    <div class="row m-0 pt-2">
+                        <div class="d-flex flex-column flex-md-row px-0">
+                            <p class="m-0 p-0" i18n="HomeComponent | first award @@firstDistinction">Distinción -
+                                European
+                                Rover Challenge </p>
+                            <p class="ms-md-auto mb-0 p-0 fw-bold"
+                                i18n="HomeComponent | first award @@distinctionFirstAward">
+                                Septiembre 14, 2018
+                            </p>
                         </div>
-                        <div class="d-flex flex-row px-0">
-                            <p class="m-0 p-0">Tercer Puesto - Act In Space </p>
-                            <p class="ms-auto mb-0 p-0 fw-bold">Noviembre, 2020 </p>
+                        <div class="d-flex flex-column flex-md-row px-0 pt-2 pt-md-0">
+                            <p class="m-0 p-0" i18n="HomeComponent | second award @@secondDistinction">Tercer Puesto -
+                                Act
+                                In
+                                Space </p>
+                            <p class="ms-md-auto mb-0 p-0 fw-bold"
+                                i18n="HomeComponent | second award @@distinctionSecondAward">
+                                Noviembre, 2020 </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-3 px-0">
+        <div class="col-3 px-0 d-none d-md-flex">
             <app-side-menu></app-side-menu>
         </div>
     </div>

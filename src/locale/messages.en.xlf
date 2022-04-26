@@ -1,26 +1,690 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="es-419">
-  <file id="ngi18n" original="ng.template">
-    <unit id="nameDev">
-      <notes>
-        <note category="location">src/app/modules/home/components/side-menu/side-menu.component.html:4</note>
-        <note category="description"> name of developer</note>
-        <note category="meaning">User name </note>
-      </notes>
-      <segment>
-        <source>Nicolás Ríos</source>
-      </segment>
-    </unit>
-    <unit id="introductionHeader">
-      <notes>
-        <note category="location">src/app/modules/home/components/side-menu/side-menu.component.html:5,6</note>
-        <note category="description">An introduction header for this sample</note>
-        <note category="meaning">User welcome</note>
-      </notes>
-      <segment>
-        <source> Desarrollador Web</source>
-        <target> Web Developer</target>
-      </segment>
-    </unit>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="details" datatype="html">
+        <source>Details</source>
+        <target>Details</target>
+        <note priority="1" from="description">header of offcanvas</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="street" datatype="html">
+        <source>Street 14 # 49 - 55, Bogotá D.C, Colombia</source>
+        <target>Street 14 # 49 - 55, Bogotá D.C, Colombia</target>
+        <note priority="1" from="description">direction of details</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="repository" datatype="html">
+        <source>Repository</source>
+        <target>Repository</target>
+        <note priority="1" from="description">header of offcanvas</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="softSkills" datatype="html">
+        <source>Soft Skills</source>
+        <target>Soft Skills</target>
+        <note priority="1" from="description">SideMenuComponent</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="communication" datatype="html">
+        <source>Communication</source>
+        <target>Communication</target>
+        <note priority="1" from="description">first soft skill</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="advancedFirstSoftSkill" datatype="html">
+        <source>Advanced</source>
+        <target>Advanced</target>
+        <note priority="1" from="description">level first skill</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Leadership" datatype="html">
+        <source>Leadership</source>
+        <target>Leadership</target>
+        <note priority="1" from="description">second soft skill</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="expertSecondSoftSkill" datatype="html">
+        <source>Expert</source>
+        <target>Expert</target>
+        <note priority="1" from="description">level second skill</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Teamwork" datatype="html">
+        <source>Teamwork</source>
+        <target>Teamwork</target>
+        <note priority="1" from="description">third soft skill</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="advancedThirdSoftSkill" datatype="html">
+        <source>Advanced</source>
+        <target>Advanced</target>
+        <note priority="1" from="description">level third skill</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="timeManagement" datatype="html">
+        <source>Time Management</source>
+        <target>Time Management</target>
+        <note priority="1" from="description">fourth soft skill</note>
+        <note priority="1" from="meaning">SideMenuComponent</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="expertFourthSoftSkill" datatype="html">
+        <source>Expert</source>
+        <target>Expert</target>
+        <note priority="1" from="description">level fourth skill</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hardSkills" datatype="html">
+        <source>Hards Skills</source>
+        <target>Hards Skills</target>
+        <note priority="1" from="description">SideMenuComponent</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dataBases" datatype="html">
+        <source>Data Bases</source>
+        <target>Data Bases</target>
+        <note priority="1" from="description">SideMenuComponent</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="utilities" datatype="html">
+        <source>Utilities</source>
+        <target>Utilities</target>
+        <note priority="1" from="description">SideMenuComponent</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="internazionalization" datatype="html">
+        <source>Internationalization i18n</source>
+        <target>Internationalization i18n</target>
+        <note priority="1" from="description">first hard skill</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">108,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages" datatype="html">
+        <source>Languages</source>
+        <target>Languages</target>
+        <note priority="1" from="description">SideMenuComponent</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="spanish" datatype="html">
+        <source>Spanish</source>
+        <target>Spanish</target>
+        <note priority="1" from="description">first language</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nativeFirstLanguaje" datatype="html">
+        <source>Native</source>
+        <target>Native</target>
+        <note priority="1" from="description">level first language</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="english" datatype="html">
+        <source>English</source>
+        <target>English</target>
+        <note priority="1" from="description">second language</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="proficientSecondLanguaje" datatype="html">
+        <source>Proficient</source>
+        <target>Proficient</target>
+        <note priority="1" from="description">level second language</note>
+        <note priority="1" from="meaning">SideMenuComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/components/side-menu/side-menu.component.html</context>
+          <context context-type="linenumber">131,133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="moreInformation" datatype="html">
+        <source>More Information</source>
+        <target>More Information</target>
+        <note priority="1" from="description">offcanvas button</note>
+        <note priority="1" from="meaning">Home Component </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="webDeveloper" datatype="html">
+        <source>Web Developer</source>
+        <target>Web Developer</target>
+        <note priority="1" from="description">header</note>
+        <note priority="1" from="meaning">Home Component </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="profile" datatype="html">
+        <source>Profile</source>
+        <target>Profile</target>
+        <note priority="1" from="description">Home Component</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="perfilDescription" datatype="html">
+        <source>Talented and passionate for technology web developer, with knowledge and skills that are traceable in different areas of companies, with remarkable aptitude and learning capacity and motivation and willingness to manage projects that technologically drive industries in different markets. Excellent ability to communicate with customers and assess their needs. Ambassador of best practices to ensure code quality and optimization. Proactive in exploring new technologies. Willingness to lead and be a culture builder. Lover of rockets, robotics and water sports.</source>
+        <target>Talented and passionate for technology web developer, with knowledge and skills that are traceable in different areas of companies, with remarkable aptitude and learning capacity and motivation and willingness to manage projects that technologically drive industries in different markets. Excellent ability to communicate with customers and assess their needs. Ambassador of best practices to ensure code quality and optimization. Proactive in exploring new technologies. Willingness to lead and be a culture builder. Lover of rockets, robotics and water sports.</target>
+        <note priority="1" from="description">Web developers with great talent</note>
+        <note priority="1" from="meaning">Home Component </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">25,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education" datatype="html">
+        <source>Education</source>
+        <target>Education</target>
+        <note priority="1" from="description">Home Component</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mechanicalEngineering" datatype="html">
+        <source>Mechanical Engineer</source>
+        <target>Mechanical Engineer</target>
+        <note priority="1" from="description">first major</note>
+        <note priority="1" from="meaning">Home Component </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="relevantCoursesMechanicalEngineering" datatype="html">
+        <source>Relevant Coursework: Movement Control – Master Course (MATLAB), Design of Mechanisms by 
+Computer – Master Course (MATLAB), Energy Conversion Systems Orientated to Renewable Energies, 
+Design of Mechanical Systems, Manufacturing Systems, Heat Transfer, Machinery Design, Analysis of 
+Control Systems, Materials Engineering, Fluid Mechanics, Dynamics of Mechanical Systems.</source>
+        <target>Relevant Coursework: Movement Control – Master Course (MATLAB), Design of Mechanisms by 
+Computer – Master Course (MATLAB), Energy Conversion Systems Orientated to Renewable Energies, 
+Design of Mechanical Systems, Manufacturing Systems, Heat Transfer, Machinery Design, Analysis of 
+Control Systems, Materials Engineering, Fluid Mechanics, Dynamics of Mechanical Systems.</target>
+        <note priority="1" from="description">relevant courses from first career</note>
+        <note priority="1" from="meaning">Home Component </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">47,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="electronicEngineering" datatype="html">
+        <source>Electronic Engineer</source>
+        <target>Electronic Engineer</target>
+        <note priority="1" from="description">second major</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dateToGraduateElectronicEngineering" datatype="html">
+        <source>2023 (expected)</source>
+        <target>2023 (expected)</target>
+        <note priority="1" from="description">date to graduate</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="relevantCoursesElectronicEngineering" datatype="html">
+        <source>Relevant Coursework: Dynamic Systems, Fundamentals of Electronics, Electromagnetic Theory, Digital 
+Electronic Systems, Materials for Electronic Engineering, Automation, Computer Science, Robotics, 
+Analog Electronics, Manufacturing Biosensors – Master Course.</source>
+        <target>Relevant Coursework: Dynamic Systems, Fundamentals of Electronics, Electromagnetic Theory, Digital 
+Electronic Systems, Materials for Electronic Engineering, Automation, Computer Science, Robotics, 
+Analog Electronics, Manufacturing Biosensors – Master Course.</target>
+        <note priority="1" from="description">relevant courses from second career</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">73,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="managmentOption" datatype="html">
+        <source>Option in Management</source>
+        <target>Option in Management</target>
+        <note priority="1" from="description">third major</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">88,90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dateToGraduateManagmentOption" datatype="html">
+        <source>2023 (expected)</source>
+        <target>2023 (expected)</target>
+        <note priority="1" from="description">date to graduate</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">92,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="relevantCoursesManagmentOption" datatype="html">
+        <source>Relevant Coursework: Cultural Management, Organizations, Accounting, Marketing Fundamentals, 
+Management Fundamentals.</source>
+        <target>Relevant Coursework: Cultural Management, Organizations, Accounting, Marketing Fundamentals, 
+Management Fundamentals.</target>
+        <note priority="1" from="description">relevant courses from third career</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">97,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience" datatype="html">
+        <source>Experience</source>
+        <target>Experience</target>
+        <note priority="1" from="description">HomeComponent</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="assistantHeadOfMaintenance" datatype="html">
+        <source>Assistant to the Head of Maintenance</source>
+        <target>Assistant to the Head of Maintenance</target>
+        <note priority="1" from="description">first job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">114,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dateIncomeFirstJob" datatype="html">
+        <source>December 2017, 2018</source>
+        <target>December 2017, 2018</target>
+        <note priority="1" from="description">date of first job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">119,121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstTaskFirstJob" datatype="html">
+        <source>Designed a structure for the lifting of a production pipe transport platform using
+hydraulic jacks operated by a basic pumping unit. Simulated the structure in ANSYS to evaluate the 
+behavior of the mechanism under cyclical loads.</source>
+        <target>Designed a structure for the lifting of a production pipe transport platform using
+hydraulic jacks operated by a basic pumping unit. Simulated the structure in ANSYS to evaluate the 
+behavior of the mechanism under cyclical loads.</target>
+        <note priority="1" from="description">first job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">124,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="secondTaskFirstJob" datatype="html">
+        <source>Configurated a power plant which facilitates the energy supply in 
+field operations.</source>
+        <target>Configurated a power plant which facilitates the energy supply in 
+field operations.</target>
+        <note priority="1" from="description">first job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">132,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ThirdTaskFirstJob" datatype="html">
+        <source>Take the measurements of the resistance of the land for the grounding of maintenance equipment during 
+operations.</source>
+        <target>Take the measurements of the resistance of the land for the grounding of maintenance equipment during 
+operations.</target>
+        <note priority="1" from="description">first job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">136,139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="FourthTaskFirstJob" datatype="html">
+        <source>Adapted a hydraulic unit for the activation of preventer and hydraulic valves that manipulate the pipeline in 
+maintenance activities.</source>
+        <target>Adapted a hydraulic unit for the activation of preventer and hydraulic valves that manipulate the pipeline in 
+maintenance activities.</target>
+        <note priority="1" from="description">first job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">140,144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cenitTransportationAndLogisticsOfHydrocarbons" datatype="html">
+        <source>Cenit Transportation and Logistics of Hydrocarbons SAS </source>
+        <target>Cenit Transportation and Logistics of Hydrocarbons SAS </target>
+        <note priority="1" from="description">HomeComponent</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">149,151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="engineeringIntern" datatype="html">
+        <source>Engineering Intern</source>
+        <target>Engineering Intern</target>
+        <note priority="1" from="description">second job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">153,154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dateIncomeSecondJob" datatype="html">
+        <source>July 2019, January 2020</source>
+        <target>July 2019, January 2020</target>
+        <note priority="1" from="description">date of second job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">156,157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstTaskSecondJob" datatype="html">
+        <source>Developed a Power BI template for automation in the capture of workflow results. 
+</source>
+        <target>Developed a Power BI template for automation in the capture of workflow results. 
+</target>
+        <note priority="1" from="description">second job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">160,164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="secondTaskSecondJob" datatype="html">
+        <source>Managed and monitored the construction of rainwater collection structures in discharge areas.</source>
+        <target>Managed and monitored the construction of rainwater collection structures in discharge areas.</target>
+        <note priority="1" from="description">second job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">165,169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="thirdTaskSecondJob" datatype="html">
+        <source>Developed a pilot test for the integration of an IoT architecture in the collection of pipeline operation data.</source>
+        <target>Developed a pilot test for the integration of an IoT architecture in the collection of pipeline operation data.</target>
+        <note priority="1" from="description">second job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">170,174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="MonitorOfMechanicalEngineeringDegreeProject" datatype="html">
+        <source>Mechanical Engineering Degree Project Monitor</source>
+        <target>Mechanical Engineering Degree Project Monitor</target>
+        <note priority="1" from="description">third job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">182,185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dateIncomeThirdJob" datatype="html">
+        <source>January, June 2020</source>
+        <target>January, June 2020</target>
+        <note priority="1" from="description">date of third job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstTaskThirdJob" datatype="html">
+        <source>Supported, adviced and managed mechanical engineering mid-career project where students adapted a drone to carry a load from one point to another through an obstacle course.</source>
+        <target>Supported, adviced and managed mechanical engineering mid-career project where students adapted a drone to carry a load from one point to another through an obstacle course.</target>
+        <note priority="1" from="description">third job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">190,194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="MonitorOfControlWorkshop" datatype="html">
+        <source>Control Workshop Monitor</source>
+        <target>Control Workshop Monitor</target>
+        <note priority="1" from="description">HomeComponent</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">201,204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dateIncomeFourthJob" datatype="html">
+        <source>January, June 2021</source>
+        <target>January, June 2021</target>
+        <note priority="1" from="description">date of fourth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">206</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstTaskFourthJob" datatype="html">
+        <source>Supported, adviced and managed electronic engineering control workshop where students conducted automation labs in CloudLabs, programming workshops in TIA portal with Grafcet and Ladder language and final project that consisted in the manufacture and control of a ball-balance system in Arduino. </source>
+        <target>Supported, adviced and managed electronic engineering control workshop where students conducted automation labs in CloudLabs, programming workshops in TIA portal with Grafcet and Ladder language and final project that consisted in the manufacture and control of a ball-balance system in Arduino. </target>
+        <note priority="1" from="description">fourth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">209,215</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="webDeveloperJob" datatype="html">
+        <source>Web Developer</source>
+        <target>Web Developer</target>
+        <note priority="1" from="description">fifth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">222,224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dateIncomeFifthJob" datatype="html">
+        <source>July 2021, December 2021</source>
+        <target>July 2021, December 2021</target>
+        <note priority="1" from="description">date of fifth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">226,228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstTaskFifthJob" datatype="html">
+        <source>Developed a support tool that promotes the technological growth of MSMEs, through management plans appropriate to their market.</source>
+        <target>Developed a support tool that promotes the technological growth of MSMEs, through management plans appropriate to their market.</target>
+        <note priority="1" from="description">fifth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">231,236</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="secondTaskFifthJob" datatype="html">
+        <source>Developed marketplaces for real estate companies in Colombia and Spain. </source>
+        <target>Developed marketplaces for real estate companies in Colombia and Spain. </target>
+        <note priority="1" from="description">fifth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">237,239</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="leadingDevelopr" datatype="html">
+        <source>Lead Developer</source>
+        <target>Lead Developer</target>
+        <note priority="1" from="description">sixth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">246,249</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dateIncomeSixthJob" datatype="html">
+        <source>January 2022</source>
+        <target>January 2022</target>
+        <note priority="1" from="description">date of sixth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">251</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstTaskSixthJob" datatype="html">
+        <source>Managed and developed three web projects as marketplaces that provided technological growth to real estate companies in Colombia and Spain. </source>
+        <target>Managed and developed three web projects as marketplaces that provided technological growth to real estate companies in Colombia and Spain. </target>
+        <note priority="1" from="description">sixth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">254,257</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="secondTaskSixthJob" datatype="html">
+        <source>Supported design and production of real estate marketplaces in Colombia and Spain.</source>
+        <target>Supported design and production of real estate marketplaces in Colombia and Spain.</target>
+        <note priority="1" from="description">sixth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">258,261</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="thirdTaskSixthJob" datatype="html">
+        <source>Implementation leader in new front-end technologies, architectures and mobile developments.</source>
+        <target>Implementation leader in new front-end technologies, architectures and mobile developments.</target>
+        <note priority="1" from="description">sixth job</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">262,266</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Awards" datatype="html">
+        <source>Awards</source>
+        <target>Awards</target>
+        <note priority="1" from="description">HomeComponent</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">271</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstDistinction" datatype="html">
+        <source>Distinction - European Rover Challenge</source>
+        <target>Distinction - European Rover Challenge</target>
+        <note priority="1" from="description">first award</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">274,276</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="distinctionFirstAward" datatype="html">
+        <source>September 14, 2018</source>
+        <target>September 14, 2018</target>
+        <note priority="1" from="description">first award</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">278,280</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="secondDistinction" datatype="html">
+        <source>Third Place - Act In Space</source>
+        <target>Third Place - Act In Space</target>
+        <note priority="1" from="description">second award</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">283,286</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="distinctionSecondAward" datatype="html">
+        <source>November, 2020</source>
+        <target>November, 2020</target>
+        <note priority="1" from="description">second award</note>
+        <note priority="1" from="meaning">HomeComponent </note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/home/home.component.html</context>
+          <context context-type="linenumber">288,289</context>
+        </context-group>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
