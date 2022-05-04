@@ -8,7 +8,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "cv": {
+    "pwa-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -31,7 +31,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/cv",
+            "outputPath": "dist/pwa-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -89,17 +89,17 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "cv:build"
+            "browserTarget": "pwa-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "cv:build:production"
+              "browserTarget": "pwa-app:build:production"
             },
             "development": {
-              "browserTarget": "cv:build:development"
+              "browserTarget": "pwa-app:build:development"
             },
             "en": {
-              "browserTarget": "cv:build:en"
+              "browserTarget": "pwa-app:build:en"
             }
           },
           "defaultConfiguration": "development"
@@ -107,7 +107,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cv:build"
+            "browserTarget": "pwa-app:build"
           }
         },
         "test": {
@@ -140,5 +140,5 @@
       }
     }
   },
-  "defaultProject": "cv"
+  "defaultProject": "pwa-app"
 }
